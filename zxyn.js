@@ -602,21 +602,21 @@ https://github.com/DikaArdnt
 https://youtu.be/9OvUdX8Xuv0`
 let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '©ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '©DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '©DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '©DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '©ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '©DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '©ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '©DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -777,7 +777,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© ArullOfc', m, {mentions: ments})
+                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© DafaOfc', m, {mentions: ments})
             }
             break
             case 'jadian': {
@@ -792,7 +792,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© ArullOfc', m, {mentions: menst})
+                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© DafaOfc', m, {mentions: menst})
             }
             break
             case 'react': {
@@ -985,7 +985,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '© DafaOfc',
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -1026,7 +1026,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: '© ZxynOfc',
+                footer: '© DafaOfc',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1068,7 +1068,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '© DafaOfc',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1125,7 +1125,7 @@ break
                         { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Group`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Group`, '© DafaOfc', m)
 
              }
             }
@@ -1143,7 +1143,7 @@ break
                         { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Edit Info`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Edit Info`, '© DafaOfc', m)
 
             }
             }
@@ -1165,7 +1165,7 @@ break
                         { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Antilink`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Antilink`, '© DafaOfc', m)
                 }
              }
              break
@@ -1186,7 +1186,7 @@ break
                         { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, '© ZxynOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, '© DafaOfc', m)
                 }
              }
              break
@@ -1221,7 +1221,7 @@ break
                 ]
                 },
                 ]
-                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, '© ZxynOfc', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
+                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, '© DafaOfc', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
                 }
             }
             break
@@ -1244,7 +1244,7 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
@@ -1268,7 +1268,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(i, txt, '© ZxynOfc', global.thumb, btn)
+                      zxyn.send5ButImg(i, txt, '© DafaOfc', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1283,7 +1283,7 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
@@ -1307,7 +1307,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(yoi, txt, '© ArullOfc', global.thumb, btn)
+                      zxyn.send5ButImg(yoi, txt, '© DafaOfc', global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
@@ -1605,7 +1605,7 @@ break
                     caption: `*-------「 GIMAGE SEARCH 」-------*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
-                    footer: '© ArullOfc',
+                    footer: '© DafaOfc',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1635,7 +1635,7 @@ break
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-                    footer: '© ArullOfc',
+                    footer: '© DafaOfc',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1716,7 +1716,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: '© ZxynOfc',
+                    footer: '© DafaOfc',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1734,7 +1734,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: '© ArullOfc',
+                    footer: '© DafaOfc',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1752,7 +1752,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: '© ArullOfc',
+                    footer: '© DafaOfc',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2272,7 +2272,7 @@ break
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: '© ArullOfc',
+			footer: '© DafaOfc',
 			buttons,
 			headerType: 4
 		    }
@@ -2899,7 +2899,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6285822347348?text=SEWABOT
+├  🪀 wa.me/6283843400022?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2923,15 +2923,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
             break
 case 'dana': {
@@ -3384,12 +3384,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3409,15 +3409,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3461,12 +3461,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3486,15 +3486,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3547,12 +3547,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3572,15 +3572,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3620,12 +3620,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3645,15 +3645,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3700,12 +3700,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3725,15 +3725,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3775,12 +3775,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3800,15 +3800,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3853,12 +3853,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3878,15 +3878,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -3949,12 +3949,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3974,15 +3974,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4026,12 +4026,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4051,15 +4051,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4100,12 +4100,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4125,15 +4125,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4179,12 +4179,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4204,15 +4204,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4274,12 +4274,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4299,15 +4299,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4357,12 +4357,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4382,15 +4382,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4432,12 +4432,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4457,15 +4457,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4505,12 +4505,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4530,15 +4530,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4574,12 +4574,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4599,15 +4599,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4644,12 +4644,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4669,15 +4669,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4720,12 +4720,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4745,15 +4745,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4763,12 +4763,12 @@ let btn = [{
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4788,48 +4788,48 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
 
 case 'donasi': {
 anu = `╭─❏ *『 DONASI 』*
-│ ➪ Dana : 085822347348
-│ ➪ Pulsa : 085822347348,083843192208
+│ ➪ Gopay : 0882001542591
+│ ➪ Dana : 082136588730
 ╰───────────────❏
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: '085822347348'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4892,12 +4892,12 @@ Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4917,15 +4917,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
@@ -4944,12 +4944,12 @@ https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/DJK48h1tjJd0d6mQ2kuIJq'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4969,15 +4969,15 @@ https://zenzapis.xyz`
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© DafaOfc', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© DafaOfc', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© DafaOfc', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© DafaOfc', global.thumb, btn)
                         }
                      }
             break
